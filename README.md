@@ -1,6 +1,6 @@
-## 说明
+# 说明
 
-- `VUE2.0 Router` Demo，介绍了vue router简单用法。
+  `VUE2.0 Router` Demo，介绍了vue router简单用法。  
   
 ## 版本
 
@@ -33,7 +33,7 @@ $ npm run build
 
 ## 目录结构
 
-```
+``` 目录
 .
 ├── 404.html
 ├── LICENSE
@@ -55,5 +55,6 @@ $ npm run build
 ```
 
 ## 个人主页
+
 - 欢迎访问个人 [github-xukaixing](https://github.com/xukaixing) 主页.
 - 欢迎访问个人 [gitee-xukaixing](https://gitee.com/xukaixing) 主页.
