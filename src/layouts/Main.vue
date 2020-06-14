@@ -1,3 +1,12 @@
+<!--
+ * @Description:
+ * @Author: andy.ten@tom.com
+ * @Date: 2020-06-14 15:56:44
+ * @LastEditors: andy.ten@tom.com
+ * @LastEditTime: 2020-06-14 19:41:16
+ * @Version: 1.0.0
+ * @FilePath: /vue-2.0-router-demo/src/layouts/Main.vue
+-->
 <template>
   <div class="container">
     <ul>
@@ -6,7 +15,7 @@
         <v-link href="/about">About</v-link>
       </li>
     </ul>
-    //插槽；会保留被渲染组件内部内容，包括html标签
+    <!--插槽；会保留被渲染组件内部内容，包括html标签-->
     <slot></slot>
   </div>
 </template>
