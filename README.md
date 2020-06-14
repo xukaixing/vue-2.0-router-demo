@@ -1,4 +1,4 @@
-# 说明
+## 说明
 
 - `VUE2.0 Router` Demo，介绍了vue router简单用法。
   
@@ -17,11 +17,6 @@
   - EditorConfig
   - ESLint
 
-## 安装
-
-### 获取代码
-[github-router]
-
 ### 使用 yarn 或 npm 安装
 
 ```bash
@@ -37,6 +32,26 @@ $ npm run build
 
 ## 目录结构
 
-## 使用简介
-## 附
+```
+.
+├── 404.html
+├── LICENSE
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── src
+│   ├── components
+│   ├── layouts
+│   ├── main.js
+│   ├── pages
+│   └── routes.js
+├── tree.md
+└── webpack.config.js
+
+4 directories, 10 files
+
+```
+
+## 个人主页
 欢迎访问个人 [github-xukaixing](https://github.com/xukaixing) 主页.
