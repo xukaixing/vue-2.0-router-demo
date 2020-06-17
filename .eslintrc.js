@@ -41,17 +41,17 @@ module.exports = {
   ],
   // required to lint *.vue files
   // 此项是用来提供插件的，插件名称省略了eslint-plugin-，下面这个配置是用来规范html的
-  // plugins: ['vue', 'prettier'],
-  plugins: ['vue', 'typescript', 'import', 'node', 'standard', 'promise', 'commonjs', 'vue', 'prettier', 'html'],
+  plugins: ['vue', 'prettier'],
+  // plugins: ['typescript', 'import', 'node', 'standard', 'promise', 'commonjs', 'vue', 'prettier', 'html'],
   // plugins: [
   //   'eslint-plugin-html', // 检查html当中script标签
   //   'eslint-plugin-import',
   //   'eslint-plugin-promise',
   //   'eslint-plugin-vue' // vue自动格式化插件
   // ],
-  settings: {
-    'html/html-extensions': ['.html', '.vue'] // 除js文件外，会去检查文件中script标签配置
-  },
+  // settings: {
+  //   'html/html-extensions': ['.html', '.vue'] // 注释掉settings，否则eslint无法校验.vue文件
+  // },
   rules: {
     'prettier/prettier': [0], // 开启会影响 dev 环境打包速度
     // -------------------------------------------- 规范规则 ------------------------------------------
@@ -314,20 +314,22 @@ module.exports = {
     'wrap-iife': [2, 'any'], // 要求IIFE使用括号括起来，立即执行函数表达式的小括号风格
     'yield-star-spacing': [2, 'both'],
     yoda: [2, 'never'], // 要求或禁止Yoda条件。 if("red" === color) { //字面量在前，变量在后 }，禁止尤达条件
-    'prefer-const': 2, // 要求使用const声明那些声明后不再被修改的变量
+    'prefer-const': 2 // 要求使用const声明那些声明后不再被修改的变量
     // -------------------------------------------- vue规则 ------------------------------------------
-    'vue/eqeqeq': [0],
+    /*
+    'vue/eqeqeq': [2], // 要求使用 ===和 !==替代==和!
     'vue/no-v-html': [0],
-    'vue/this-in-template': [0],
+    'vue/this-in-template': [1],
     'vue/attribute-hyphenation': [0],
-    'vue/require-default-prop': [0],
+    'vue/require-default-prop': [1],
     'vue/require-prop-types': [0],
     'vue/require-valid-default-prop': [0],
-    'vue/no-unused-vars': [0],
+    'vue/no-unused-vars': [1],
     'vue/prop-name-casing': [0],
     'vue/name-property-casing': [0],
     'vue/component-name-in-template-casing': [0],
-    'vue/no-unused-components': [0],
-    'vue/no-duplicate-attributes': [0]
+    'vue/no-unused-components': [1],
+    'vue/no-duplicate-attributes': [1]
+    */
   }
 };
