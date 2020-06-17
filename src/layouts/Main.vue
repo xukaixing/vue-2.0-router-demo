@@ -3,7 +3,7 @@
  * @Author: andy.ten@tom.com
  * @Date: 2020-06-14 15:56:44
  * @LastEditors: andy.ten@tom.com
- * @LastEditTime: 2020-06-14 19:41:16
+ * @LastEditTime: 2020-06-17 14:51:24
  * @Version: 1.0.0
  * @FilePath: /vue-2.0-router-demo/src/layouts/Main.vue
 -->
@@ -21,13 +21,13 @@
 </template>
 
 <script>
-  import VLink from '../components/VLink.vue'
+import VLink from '../components/VLink.vue';
 
-  export default {
-    components: {
-      VLink
-    }
+export default {
+  components: {
+    VLink
   }
+};
 </script>
 
 <style scoped>

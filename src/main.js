@@ -3,7 +3,7 @@
  * @Author: andy.ten@tom.com
  * @Date: 2016-09-19 21:51:06
  * @LastEditors: andy.ten@tom.com
- * @LastEditTime: 2020-06-14 19:29:39
+ * @LastEditTime: 2020-06-17 14:41:43
  * @Version: 1.0.0
  * @FilePath: /vue-2.0-router-demo/src/main.js
  */
